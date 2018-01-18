@@ -37,3 +37,13 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user*
 
+*.exe
+setup.app
+*.bak
+*.BAK
+
+repository*
+!HelloWorld.exe
+
+# インストーラのデータフォルダ
+src/Chapter5/MakeByQtCreator2/Installer/packages/com.vendor.product/data/*

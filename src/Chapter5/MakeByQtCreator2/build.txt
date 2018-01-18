@@ -1,0 +1,23 @@
+普通のqmake
+qmake -spec win32-msvc CONFIG+=installer -r ..\AppExample\AppExample.pro
+サブフォルダもqmake
+nmake qmake_all
+全部ビルド
+nmake
+
+
+
+
+
+mkdir build-HelloWorld
+cd build-HelloWorld
+qmake ..\HelloWorld\HelloWorld.pro CONFIG+=installer -r
+nmake
+nmake translations_release
+nmake install
+nmake deploy
+
+mkdir ..\build-installer
+cd ..\build-installer
+qmake ..\installer\installer.pro
+nmake

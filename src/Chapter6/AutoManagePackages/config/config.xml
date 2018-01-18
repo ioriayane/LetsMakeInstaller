@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+  <Name>HelloWorld</Name>
+  <Version>1.0.0</Version>
+  <Title>HelloWorld</Title>
+  <Publisher>relog</Publisher>
+  <StartMenuDir>HelloWorld</StartMenuDir>
+  <TargetDir>@ApplicationsDir@/@ProductName@</TargetDir>
+  <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+  <!-- ControlScript>controlscript.qs</ControlScript -->
+  <CreateLocalRepository>true</CreateLocalRepository>
+  <RemoteRepositories>
+    <Repository>
+      <Url>file:///C:/AutoManagePackages/repository</Url>
+      <Enabled>1</Enabled>
+      <DisplayName>HelloWorld repository</DisplayName>
+    </Repository>
+  </RemoteRepositories>
+</Installer>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+  <Name>HelloWorld</Name>
+  <Version>1.0.0</Version>
+  <Title>HelloWorld</Title>
+  <Publisher>relog</Publisher>
+  <StartMenuDir>HelloWorld</StartMenuDir>
+  <TargetDir>@ApplicationsDir@/@ProductName@</TargetDir>
+  <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+  <!-- ControlScript>controlscript.qs</ControlScript -->
+  <RemoteRepositories>
+    <Repository>
+      <Url>http://relog.xii.jp/download/qt/helloworld_broken</Url>
+      <Enabled>1</Enabled>
+      <DisplayName>HelloWorld repository broken</DisplayName>
+    </Repository>
+  </RemoteRepositories>
+</Installer>

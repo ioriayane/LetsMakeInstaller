@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Plugins component</DisplayName>
+    <Description>Install plugins.</Description>
+    <Version>0.1</Version>
+    <ReleaseDate>2018-04-22</ReleaseDate>
+    <SortingPriority>10</SortingPriority>
+    <Licenses>
+        <License name="Plugins License Agreement" file="license.txt" />
+    </Licenses>
+    <Default>true</Default>
+</Package>

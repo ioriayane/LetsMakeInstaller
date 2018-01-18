@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>The root component</DisplayName>
+  <Description>Install this example.</Description>
+  <Version>1.0.0</Version>
+  <ReleaseDate>2018-04-22</ReleaseDate>
+  <Name>com.vendor.product</Name>
+  <Default>true</Default>
+  <Licenses>
+    <License name="Hello World Public License Agreement" file="license.txt" />
+  </Licenses>
+<!-- 削除
+  <Script>installscript.qs</Script>
+  <UserInterfaces>
+    <UserInterface>page.ui</UserInterface>
+  </UserInterfaces>
+-->
+</Package>

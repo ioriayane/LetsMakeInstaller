@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+  <Name>HelloWorld</Name>
+  <Version>1.0.0</Version>
+  <Title>HelloWorld</Title>
+  <Publisher>relog</Publisher>
+  <StartMenuDir>HelloWorld</StartMenuDir>
+  <TargetDir>@ApplicationsDirX86@/@ProductName@</TargetDir>
+  <RemoteRepositories>
+    <Repository>
+      <Url>http://relog.xii.jp/download/helloworld_app/windows_x86</Url>
+      <Enabled>1</Enabled>
+      <Username>hello</Username>
+      <DisplayName>HelloWorld repository(http://relog.xii.jp/download/helloworld_app)</DisplayName>
+    </Repository>
+  </RemoteRepositories>
+</Installer>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+  <DisplayName>The root component</DisplayName>
+  <DisplayName xml:lang="ja">ルートコンポーネント</DisplayName>
+  <Description>Install this example.</Description>
+  <Description xml:lang="ja">インストールのサンプルです。</Description>
+  <Version>0.1.0-1</Version>
+  <ReleaseDate>2018-04-22</ReleaseDate>
+  <Default>script</Default>
+  <Licenses>
+    <License name="Hello World Public License Agreement" file="license.txt" />
+  </Licenses>
+  <Translations>
+    <Translation>ja.qm</Translation>
+  </Translations>
+  <Script>installscript.qs</Script>
+  <UserInterfaces>
+    <UserInterface>openfileform.ui</UserInterface>
+  </UserInterfaces>
+</Package>
